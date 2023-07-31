@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    font-size: large;
+}
+
+.container2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px;
+    outline: none;
+}
+
+#joke {
+    display: flex;
+    justify-content: center;
+    /* margin: 45px, 0; */
+    margin-top: 40px;
+}
